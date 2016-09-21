@@ -20,7 +20,8 @@ public class DebugController : MonoBehaviour
 		#if UNITY_IOS
 		if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Ended) {
 			Vector2 position = Input.GetTouch (0).position;
-			Instantiate (obstaclePrefabs, position, Quaternion.identity);
+			Vector2 point = myCamera.ScreenToWorldPoint (position);
+			Instantiate (obstaclePrefabs, point, Quaternion.identity);
 		}
 		#endif
 

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5B9810DB-49B5-AC22-4229-DEEBF9EA6F04}</ProjectGuid>
+    <ProjectGuid>{AC008C5B-CD27-C56C-C6C0-F3E2AB712BB5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -45,17 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\2D\Scripts\Camera2DFollow.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\2D\Scripts\Platformer2DUserControl.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\2D\Scripts\PlatformerCharacter2D.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\2D\Scripts\Restarter.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Custom Joystick\FourWayController.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Third Person\AbstractTargetFollower.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Third Person\AutoCam.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Third Person\PivotBasedCameraRig.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Third Person\ThidPersonExampleController.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Touchpad Camera\RotateCamera.cs" />
-     <Compile Include="Assets\Standard Assets\CNControls\Examples\Scenes\Touchpad Camera\RotationConstraint.cs" />
      <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\CnInputManager.cs" />
      <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualAxis.cs" />
      <Compile Include="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualButton.cs" />
