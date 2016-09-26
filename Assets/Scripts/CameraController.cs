@@ -9,12 +9,14 @@ public class CameraController : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		player = GameObject.Find ("FireElement");
 		cameraOn (player);
 	}
 
 	// LateUpdate is called after Update each frame
 	void LateUpdate ()
 	{
+		player = GameObject.Find ("FireElement");
 		cameraOn (player);
 	}
 

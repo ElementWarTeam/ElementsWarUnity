@@ -12,6 +12,8 @@ public class FireBallScript : MonoBehaviour
 	private bool shouldBeDestroied = false;
 	private AudioSource audioSource;
 
+	public float initiateTime = 0f;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -19,12 +21,13 @@ public class FireBallScript : MonoBehaviour
 		rb2d.velocity = new Vector2 (0, 0);
 		audioSource = GetComponent<AudioSource> ();
 		audioSource.PlayOneShot (shootAudio);
+		initiateTime = Time.time;
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		if (!audioSource.isPlaying && shouldBeDestroied) {
+		if ((!audioSource.isPlaying && shouldBeDestroied) || (initiateTime + 5f <= Time.time)) {
 			Destroy (gameObject);
 		}
 	}
