@@ -45,8 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DebugController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DebugController.cs" />
+     <Compile Include="Assets\Scripts\ElementNetworkManager.cs" />
      <Compile Include="Assets\Scripts\FireBallScript.cs" />
      <Compile Include="Assets\Scripts\FireElementScript.cs" />
      <Compile Include="Assets\Scripts\ObstacleScript.cs" />

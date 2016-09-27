@@ -35,9 +35,9 @@ public class FireElementScript : NetworkBehaviour
 		}
 	}
 
-	void OnNetworkInstantiate ()
+	void OnNetworkInstantiate (NetworkMessageInfo info)
 	{
-		
+		Debug.Log ("New object instantiated by " + info.sender);
 	}
 
 	[Command]
